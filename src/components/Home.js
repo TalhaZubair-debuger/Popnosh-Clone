@@ -4,13 +4,13 @@ import { Link, useNavigate } from "react-router-dom";
 import CustomButton from "../utils/CustomButton";
 import { app } from "../firebaseConfig";
 import { getDatabase, onValue, ref } from "firebase/database";
-import { useUserAuth } from "../context/userContext";
+// import { useUserAuth } from "../context/userContext";
 // import { useDispatch, useSelector } from "react-redux";
 // import {getAllProducts, getProducts} from "../features/products/productSlice";
 
 
 const Home = () => {
-  const { user } = useUserAuth();
+  // const { user } = useUserAuth();
   // const dispatch = useDispatch()
   const navigate = useNavigate()
   const db = getDatabase(app);
