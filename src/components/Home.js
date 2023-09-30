@@ -11,7 +11,7 @@ import { useUserAuth } from "../context/userContext";
 
 const Home = () => {
   const { user } = useUserAuth();
-  const dispatch = useDispatch()
+  // const dispatch = useDispatch()
   const navigate = useNavigate()
   const db = getDatabase(app);
 // const productData = useSelector(getProducts);
