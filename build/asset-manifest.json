@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.35a14f9e.css",
+    "main.js": "/static/js/main.dc7fb3aa.js",
+    "static/media/classic popcorn.PNG": "/static/media/classic popcorn.735e7848275eb1fda7bb.PNG",
+    "static/media/websitebanner.jpg": "/static/media/websitebanner.762714b72400c94b7a90.jpg",
+    "static/media/premium popcorn.PNG": "/static/media/premium popcorn.2a48454e79ab47a05037.PNG",
+    "static/media/savory popcorn.PNG": "/static/media/savory popcorn.ee0ab92698f98325834a.PNG",
+    "index.html": "/index.html",
+    "main.35a14f9e.css.map": "/static/css/main.35a14f9e.css.map",
+    "main.dc7fb3aa.js.map": "/static/js/main.dc7fb3aa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35a14f9e.css",
+    "static/js/main.dc7fb3aa.js"
+  ]
+}
