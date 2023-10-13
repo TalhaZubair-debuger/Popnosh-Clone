@@ -41,60 +41,7 @@ const Navbar = ({
     }
   };
   return (
-    // <nav class="navbar">
-    //   <div class="content1">
-    //     <div class="logo">
-    //       <Link to="/">PopNosh</Link>
-    //     </div>
-
-    //     <ul class="menu-list">
-    //       <div class="icon cancel-btn">
-    //         <FontAwesomeIcon icon={faTimes} />
-    //         <i class="fas fa-times"></i>
-    //       </div>
-    //       <li>
-    //         <Link to="shop">Shop</Link>
-    //       </li>
-    //       <li>
-    //         <Link to="/gifts">Gifts</Link>
-    //       </li>
-    //       <li>
-    //         <Link to="/contact-us">Contact</Link>
-    //       </li>
-    //       <li>
-    //         <Link to="#">
-    //           <FontAwesomeIcon icon={faMagnifyingGlass} />
-    //         </Link>
-    //       </li>
-    //       <li>
-    //         <CartDrawer
-    //           isCartOpen={isCartOpen}
-    //           setIsCartOpen={setIsCartOpen}
-    //           cartData={cartData}
-    //           setCartData={setCartData}
-    //           quantity={quantity}
-    //           setQuantity={setQuantity}
-    //           userCartIndex={userCartIndex}
-    //           setUserCartIndex={setUserCartIndex}
-    //         />
-    //       </li>
-    //       {user ? (
-    //         <li>
-    //           <button onClick={handleLogOut}>LogOut</button>
-    //         </li>
-    //       ) : (
-    //         <li>
-    //           <button onClick={handleGoogleSignIn}>
-    //             <FontAwesomeIcon icon={faUser} />
-    //           </button>
-    //         </li>
-    //       )}
-    //     </ul>
-    //     <div class="icon menu-btn">
-    //       <FontAwesomeIcon icon={faBars} />
-    //     </div>
-    //   </div>
-    // </nav>
+   
     <nav className="navbar navbar-expand-lg navbar-light bg-white">
       <Link className="navbar-brand" to="/">
         <b>PopNosh</b>
